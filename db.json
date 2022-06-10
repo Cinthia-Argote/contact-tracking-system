@@ -1,0 +1,11 @@
+{
+  "candidates": [
+    {
+      "firstName": "Simon",
+      "lastName": "Toc",
+      "email": "simon@gmail.com",
+      "phone": 567667,
+      "zipCode": "0000"
+    }
+  ]
+}
