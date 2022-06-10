@@ -1,0 +1,12 @@
+.layout {
+  > .ant-layout-header {
+    display: flex;
+    color: white;
+    align-items: center;
+    > img {
+      width: 50px;
+      height: 45px;
+      margin-right: 8px;
+    }
+  }
+}

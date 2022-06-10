@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Layout } from 'antd';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+import 'antd/dist/antd.min.css';
+import './App.scss';
+
+const { Header, Content } = Layout;
+
+const App = () => (
+  <Layout className="layout">
+    <Header>
+      
+        <img alt='logo' src="/images/logo.svg" />
+      
+
+    <div>
+      Contact Tracking System
     </div>
-  );
-}
+    </Header>
+    <Content
+      style={{
+        padding: '0 50px',
+      }}
+    >
+     
+    </Content>
+   
+  </Layout>
+);
+
 
 export default App;
