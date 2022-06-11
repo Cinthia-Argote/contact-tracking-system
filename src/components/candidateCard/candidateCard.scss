@@ -1,0 +1,17 @@
+.candidate-card {
+  > .ant-card-cover {
+    img {
+      padding: 30px;
+    }
+  }
+
+  .detail {
+    display: flex;
+    align-items: center;
+    margin: 7px 0;
+
+    .anticon {
+      margin-right: 5px;
+    }
+  }
+}

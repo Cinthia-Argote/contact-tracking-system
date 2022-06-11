@@ -1,11 +1,39 @@
 {
   "candidates": [
     {
+      "id": "1",
       "firstName": "Simon",
       "lastName": "Toc",
       "email": "simon@gmail.com",
       "phone": 567667,
-      "zipCode": "0000"
+      "zipCode": "0000",
+      "sex": "male"
+    },
+    {
+      "id": "2",
+      "firstName": "Cinthia",
+      "lastName": "Argote",
+      "email": "cinthia.argote@gmail.com",
+      "phone": 79354847,
+      "zipCode": "0789",
+      "sex": "female"
+    },
+    {
+      "id": "3",
+      "firstName": "Juan",
+      "lastName": "Perez",
+      "email": "juan.perez@gmail.com",
+      "phone": 56784546,
+      "zipCode": "0001",
+      "sex": "male"
+    },
+    {
+      "id": "4",
+      "firstName": "Vanessa",
+      "lastName": "Gomez",
+      "email": "vanessa.gomez@gmail.com",
+      "phone": 78674532,
+      "zipCode": "5050"
     }
   ]
 }
