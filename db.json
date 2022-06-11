@@ -5,8 +5,8 @@
       "firstName": "Simon",
       "lastName": "Toc",
       "email": "simon@gmail.com",
-      "phone": 567667,
-      "zipCode": "0000",
+      "phone": 56342321,
+      "zipCode": "10005",
       "sex": "male"
     },
     {
@@ -15,7 +15,7 @@
       "lastName": "Argote",
       "email": "cinthia.argote@gmail.com",
       "phone": 79354847,
-      "zipCode": "0789",
+      "zipCode": "20001",
       "sex": "female"
     },
     {
@@ -24,7 +24,7 @@
       "lastName": "Perez",
       "email": "juan.perez@gmail.com",
       "phone": 56784546,
-      "zipCode": "0001",
+      "zipCode": "20002",
       "sex": "male"
     },
     {
@@ -33,7 +33,7 @@
       "lastName": "Gomez",
       "email": "vanessa.gomez@gmail.com",
       "phone": 78674532,
-      "zipCode": "5050",
+      "zipCode": "33024",
       "sex": "female"
     },
     {
@@ -42,7 +42,7 @@
       "lastName": "Montero",
       "email": "jose.montero@gmail.com",
       "phone": 4269172,
-      "zipCode": "12334",
+      "zipCode": "22030",
       "sex": "male"
     },
     {
@@ -51,7 +51,7 @@
       "lastName": "Cordez",
       "email": "crystal.cordez@gmail.com",
       "phone": 4563421,
-      "zipCode": "1010",
+      "zipCode": "02155",
       "sex": "female"
     }
   ]
