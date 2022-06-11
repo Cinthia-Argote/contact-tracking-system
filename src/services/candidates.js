@@ -7,9 +7,14 @@ const getCandidates = async data => {
   return response.data;
 };
 
-const createCandidate = async data => {
-    const response = await ApiService.post(URL_CANDIDATES, data);
-    return response.data;
-  };
+const searchCandidates = async value => {
+  const response = await ApiService.get(`${URL_CANDIDATES}?q=${value}`);
+  return response.data;
+};
 
-export { getCandidates , createCandidate };
+const createCandidate = async data => {
+  const response = await ApiService.post(URL_CANDIDATES, data);
+  return response.data;
+};
+
+export { getCandidates , createCandidate, searchCandidates };

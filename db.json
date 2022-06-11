@@ -33,7 +33,26 @@
       "lastName": "Gomez",
       "email": "vanessa.gomez@gmail.com",
       "phone": 78674532,
-      "zipCode": "5050"
+      "zipCode": "5050",
+      "sex": "female"
+    },
+    {
+      "id": "5",
+      "firstName": "Jose",
+      "lastName": "Montero",
+      "email": "jose.montero@gmail.com",
+      "phone": 4269172,
+      "zipCode": "12334",
+      "sex": "male"
+    },
+    {
+      "id": "6",
+      "firstName": "Crystal",
+      "lastName": "Cordez",
+      "email": "crystal.cordez@gmail.com",
+      "phone": 4563421,
+      "zipCode": "1010",
+      "sex": "female"
     }
   ]
 }

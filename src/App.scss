@@ -12,4 +12,16 @@
   > .ant-layout-content {
     padding: 50px;
   }
+
+  .title-content {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .search-content {
+    margin-bottom: 20px;
+    width: 40%;
+  }
 }

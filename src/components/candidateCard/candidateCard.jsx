@@ -11,7 +11,7 @@ const images = {
 };
 
 const CandidateCard = ({ firstName, lastName, email, phone, zipCode, sex }) => {
-  console.log("path", images[sex]);
+
   return (
     <Card
       className="candidate-card"
