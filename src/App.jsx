@@ -3,10 +3,11 @@ import { Layout, Typography } from "antd";
 
 import CandidateList from "./components/candidateList/candidateList";
 import SearchCandidate from "./components/searchCandidate/searchCandidate";
-import "antd/dist/antd.min.css";
-import "./App.scss";
 import CandidateCreateFormModal from "./components/candidateForm/candidateFormModal";
 import SelectTag from "./components/selectTag/selectTag";
+
+import "antd/dist/antd.min.css";
+import "./App.scss";
 
 const { Header, Content } = Layout;
 const { Title } = Typography;

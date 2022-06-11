@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const config = {
-  baseURL: "http://localhost:3000"
+  baseURL: process.env.SERVER || "http://localhost:3001",
 };
 
 const ApiService = (() => {
