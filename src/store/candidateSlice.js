@@ -10,7 +10,15 @@ export const candidateSclice = createSlice({
       ...state,
       candidates: action.payload
     }),
+    newCandidate: (state, action) => {
+      const current = [...state.candidates];
+      current.unshift(action.payload);
+      return {
+        ...state,
+        candidates: current,
+      }
+    }
   }
 });
 
-export const { candidateList } = candidateSclice.actions;
+export const { candidateList, newCandidate } = candidateSclice.actions;

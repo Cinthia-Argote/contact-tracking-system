@@ -10,8 +10,14 @@ const images = {
   female: "/images/female.svg",
 };
 
-const CandidateCard = ({ firstName, lastName, email, phone, zipCode, sex }) => {
-
+const CandidateCard = ({
+  firstName,
+  lastName,
+  email,
+  phone,
+  zipCode = "----",
+  sex,
+}) => {
   return (
     <Card
       className="candidate-card"

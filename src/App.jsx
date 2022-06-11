@@ -1,11 +1,11 @@
 import React from "react";
-import { Layout, Button, Typography } from "antd";
-import { PlusOutlined } from "@ant-design/icons";
+import { Layout, Typography } from "antd";
 
 import CandidateList from "./components/candidateList/candidateList";
 import SearchCandidate from "./components/searchCandidate/searchCandidate";
 import "antd/dist/antd.min.css";
 import "./App.scss";
+import CandidateCreateFormModal from "./components/candidateForm/candidateFormModal";
 
 const { Header, Content } = Layout;
 const { Title } = Typography;
@@ -19,7 +19,7 @@ const App = () => (
     <Content>
       <div className="title-content">
         <Title level={2}>Candidates</Title>
-        <Button type="primary" icon={<PlusOutlined />}> Add Candidate </Button>
+        <CandidateCreateFormModal />
       </div>
       <div className="search-content">
         <SearchCandidate />
