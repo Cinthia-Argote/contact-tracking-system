@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { Button, Form, Input, Modal, Radio } from "antd";
 import { PlusOutlined } from "@ant-design/icons";
+import PropTypes from "prop-types";
+
 import useCreateCandidate from "../../hooks/useCreateCandidate";
 
 const CandidateCreateForm = ({ visible, onCreate, onCancel }) => {
@@ -101,6 +103,12 @@ const CandidateCreateForm = ({ visible, onCreate, onCancel }) => {
     </Modal>
   );
 };
+
+CandidateCreateForm.propTypes = {
+  visible: PropTypes.bool,
+  onCancel: PropTypes.func,
+  onCreate: PropTypes.func,
+}
 
 const CandidateCreateFormModal = () => {
   const [visible, setVisible] = useState(false);

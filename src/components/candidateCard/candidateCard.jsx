@@ -1,5 +1,6 @@
 import { HomeOutlined, PhoneOutlined, MailOutlined } from "@ant-design/icons";
 import { Card } from "antd";
+import PropTypes from "prop-types";
 
 import "./candidateCard.scss";
 
@@ -39,5 +40,14 @@ const CandidateCard = ({
     </Card>
   );
 };
+
+CandidateCard.propTypes = {
+  firstName: PropTypes.string,
+  lastName: PropTypes.string,
+  email: PropTypes.string,
+  sex: PropTypes.string,
+  phone: PropTypes.number,
+  zipCode: PropTypes.string,
+}
 
 export default CandidateCard;
