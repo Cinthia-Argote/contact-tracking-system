@@ -7,25 +7,26 @@ import CandidateCard from "../candidateCard/candidateCard";
 
 const CandidateList = () => {
   const getCandidates = useGetCandidates();
-  const data = useSelector(state => state.candidate.candidates);
+  const { candidates, loading } = useSelector((state) => state.candidate);
 
   useEffect(() => {
     getCandidates();
   }, [getCandidates]);
-    
+
   return (
     <List
-    grid={{
-      gutter: 16,
-      column: 6,
-    }}
-    dataSource={data}
-    renderItem={(item) => (
-      <List.Item key={item.id}>
-        <CandidateCard {...item} />
-      </List.Item>
-    )}
-  />
+      loading={loading}
+      grid={{
+        gutter: 16,
+        column: 6,
+      }}
+      dataSource={candidates}
+      renderItem={(item) => (
+        <List.Item key={item.id}>
+          <CandidateCard {...item} />
+        </List.Item>
+      )}
+    />
   );
 };
 

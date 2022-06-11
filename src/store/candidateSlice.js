@@ -3,7 +3,9 @@ import { createSlice } from "@reduxjs/toolkit";
 export const candidateSclice = createSlice({
   name: "candidate",
   initialState: {
-    candidates: []
+    candidates: [],
+    loading: false,
+    searchBy: "",
   },
   reducers: {
     candidateList: (state, action) => ({
@@ -17,8 +19,16 @@ export const candidateSclice = createSlice({
         ...state,
         candidates: current,
       }
-    }
+    },
+    loading: (state, action) => ({
+      ...state,
+      loading: action.payload,
+    }),
+    searchBy: (state, action) => ({
+      ...state,
+      searchBy: action.payload
+    })
   }
 });
 
-export const { candidateList, newCandidate } = candidateSclice.actions;
+export const { candidateList, loading, newCandidate, searchBy } = candidateSclice.actions;

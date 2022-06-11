@@ -7,8 +7,10 @@ const getCandidates = async data => {
   return response.data;
 };
 
-const searchCandidates = async value => {
-  const response = await ApiService.get(`${URL_CANDIDATES}?q=${value}`);
+const searchCandidates = async (value, searchBy) => {
+  const searchByLike = `${searchBy}_like=`;
+  const url_search = `${URL_CANDIDATES}?${searchBy ? searchByLike : "q="}${value}`;
+  const response = await ApiService.get(url_search);
   return response.data;
 };
 

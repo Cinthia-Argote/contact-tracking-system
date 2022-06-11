@@ -22,6 +22,12 @@
 
   .search-content {
     margin-bottom: 20px;
-    width: 40%;
+    display: flex;
+    align-items: center;
+
+    .ant-input-search {
+      width: 40%;
+      margin-right: 10px;
+    }
   }
 }

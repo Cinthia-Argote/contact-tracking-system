@@ -6,6 +6,7 @@ import SearchCandidate from "./components/searchCandidate/searchCandidate";
 import "antd/dist/antd.min.css";
 import "./App.scss";
 import CandidateCreateFormModal from "./components/candidateForm/candidateFormModal";
+import SelectTag from "./components/selectTag/selectTag";
 
 const { Header, Content } = Layout;
 const { Title } = Typography;
@@ -23,6 +24,7 @@ const App = () => (
       </div>
       <div className="search-content">
         <SearchCandidate />
+        <SelectTag />
       </div>
       <CandidateList />
     </Content>

@@ -1,4 +1,5 @@
 import { Input } from "antd";
+
 import useSearchCandidates from "../../hooks/useSearchCandidates";
 
 const { Search } = Input;
